@@ -12,7 +12,15 @@ public class PasswordGenerator {
         int dayBirth;
         int monthBirth;
         int yearBirth;
-        // assegno valori alle variabili
 
+        //  generare (e stampare a video) una password concatenando nome, cognome,
+        //  colore preferito e somma di giorno, mese e anno di nascita, separate dal carattere
+        // assegno valori alle variabili
+        userName = "Pinco";
+        userSurname = "Pallo";
+        favoriteColor = "Magenta";
+        dayBirth = 12;
+        monthBirth = 05;
+        yearBirth = 1994;
     }
 }

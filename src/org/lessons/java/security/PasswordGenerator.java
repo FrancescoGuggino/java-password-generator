@@ -32,5 +32,8 @@ public class PasswordGenerator {
         System.out.println("Data di nascita: " + dateBirth);
 
         // genera password
+        int sumDateBirth = dayBirth + monthBirth + yearBirth;
+        String passwordGenerator = userName + "-" + userSurname + "-" + favoriteColor + "-" + sumDateBirth;
+        System.out.println("Questa è la tua password: " + passwordGenerator);
     }
 }

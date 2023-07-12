@@ -30,6 +30,8 @@ public class BonusPasswordGenerator {
         monthBirth = scanner.nextInt();
         yearBirth = scanner.nextInt();
 
+        scanner.close();
+
         int sumDateBirth = dayBirth + monthBirth + yearBirth;
 
         String passwordGenerator = userName + "-" + userSurname + "-" + favoriteColor + "-" + sumDateBirth;

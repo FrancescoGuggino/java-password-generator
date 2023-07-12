@@ -18,6 +18,12 @@ public class BonusPasswordGenerator {
         int yearBirth;
 
         //chiedo valori a utente
+        System.out.println("Qual è il tuo nome?");
+        userName = scanner.nextInt();
+        System.out.println("Qual è il tuo cognome?");
+        System.out.println("Qual è il tuo colore preferito?");
+        System.out.println("Qual è la tua data di nascita?");
+
 
     }
 }

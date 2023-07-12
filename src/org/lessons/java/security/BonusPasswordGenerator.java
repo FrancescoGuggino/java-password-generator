@@ -19,11 +19,21 @@ public class BonusPasswordGenerator {
 
         //chiedo valori a utente
         System.out.println("Qual è il tuo nome?");
-        userName = scanner.nextInt();
+        userName = scanner.nextLine();
         System.out.println("Qual è il tuo cognome?");
+        userSurname = scanner.nextLine();
         System.out.println("Qual è il tuo colore preferito?");
+        favoriteColor = scanner.nextLine();
         System.out.println("Qual è la tua data di nascita?");
 
+        dayBirth = scanner.nextInt();
+        monthBirth = scanner.nextInt();
+        yearBirth = scanner.nextInt();
+
+        int sumDateBirth = dayBirth + monthBirth + yearBirth;
+
+        String passwordGenerator = userName + "-" + userSurname + "-" + favoriteColor + "-" + sumDateBirth;
+        System.out.println("Questa è la tua password: " + passwordGenerator);
 
     }
 }
